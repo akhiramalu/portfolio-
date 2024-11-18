@@ -10,7 +10,7 @@ const Home = () => {
   <div class="body">
     
     
-     <img src={img1} width="500"  height="500" class="rounded-circle"alt="" />
+     <img src={img1} width="400"  height="500" class="rounded-circle"alt="" />
     
       
      
