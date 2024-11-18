@@ -1,0 +1,148 @@
+.nav-item a{
+    text-decoration: none;
+    color: rgb(84, 14, 5); 
+   
+    
+}
+.navbar{
+    background-color: rgb(96, 6, 112);
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+}
+
+.head h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.nav-item{
+   float: right;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+.head h1{
+
+    /* padding-top: 100px;  */
+    padding-right: 100px;
+    /* padding-top: 20px; */
+}
+.img{
+    padding-right: 950px;
+    padding-top: 50px;
+    
+}
+.body{
+    background-color: rgb(2, 81, 81);
+    padding-bottom: 270px;
+
+}
+
+.head h1{
+
+  
+    padding-left: 110px;
+    padding-top:10px;
+   
+    
+}
+.head h1{
+    padding-top:50px;
+}
+.about span{
+    font-size: bold;
+    color:rgb(3, 3, 151);
+    
+}
+.body1{
+   background-image: url("./IMAGE/black.avif");
+   background-repeat: no-repeat;
+   background-size: cover;
+ padding-bottom: 370px; 
+}
+.about {
+    padding-top: 300px;
+    color:rgb(47, 14, 78)
+}
+
+.row{
+    padding-top: 110px;
+
+}
+.edu{
+    padding: 110px;
+}
+.card{
+    background-color:lightslategray;
+}
+.card-body4{
+    height: 350px;
+
+}
+.card-body4 h5{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body4 p{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.card-body3{
+    height: 350px;
+}
+.card-body3 h5{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body3 p{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body2{
+    height: 350px;
+}
+.card-body2 h5{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body2 p{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body1{
+    height: 350px;
+}
+.card-body1 h5{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-body1 p{
+    text-align: center;
+    padding-top: 40px;
+}
+.card-title{
+    font-size: 33px;
+    color:rgba(3, 3, 54, 0.893)
+}
+
+.card-text{
+    font-size: 27px;
+    color:rgb(56, 3, 141);
+}
+.block{
+    width: 1400px;
+    border:15px;
+    background-color: rgb(61, 74, 56);
+    padding:50px;
+    margin: 40px;
+    font-size: 25px;
+}
+
+
+    
+
+
