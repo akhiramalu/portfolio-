@@ -6,24 +6,20 @@ import img1 from '../components/IMAGE/malu1.jpg'
 
 const Home = () => {
   return (
-   
-  <div class="body">
+   <div class="container-fluid">
     
-    
-     <img src={img1} width="400"  height="500" class="rounded-circle"alt="" />
-    
-      
+        <div class="card">
+  <div class="imgBox">
+    <img src={img1} width="400"  height="500"/>
+  </div>
+  <div class="details">
+  <h1 >AKHIRA S R</h1>
+  <h2> FULL STACK DEVELOPER</h2>
+  <p> A passinate and dedicated web developer</p>
+</div>
+    </div>
      
-     <div class="head">
-         <h1 >I'M AKHIRA S R</h1>
-        <h2> FULL STACK DEVELOPER</h2>
-      
-      
-      </div>
-     </div>
-  
-     
-
+</div>
     
   )
 }

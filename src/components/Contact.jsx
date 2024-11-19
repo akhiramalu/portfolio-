@@ -1,23 +1,35 @@
 import React from 'react'
-import img1 from '../components/IMAGE/malu1.jpg'
+import img2 from '../components/IMAGE/facebook.jpg'
 
 
 const Contact = () => {
   return (
-    <div class="body">
+    <div class="container-fluid">
     
-    
-    <img src={img1} width="400"  height="500" class="rounded-circle"alt="" />
+     <div class="logo">
+{/*      
+     <div className="social-media-icons">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <FaFacebook size={30} />
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <FaTwitter size={30} />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <FaInstagram size={30} />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin size={30} />
+      </a>
+    </div> */}
+
+
+
+
+
+</div>
+     </div>
    
-     
-    
-    <div class="head">
-        <h1 >I'M AKHIRA S R</h1>
-       <h2> FULL STACK DEVELOPER</h2>
-     
-     
-     </div>
-     </div>
   )
 }
 
