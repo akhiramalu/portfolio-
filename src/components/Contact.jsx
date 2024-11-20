@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '../components/IMAGE/facebook.jpg'
+
 
 
 const Contact = () => {
