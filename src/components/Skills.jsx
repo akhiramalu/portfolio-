@@ -22,6 +22,7 @@ const Skills = () => {
   <div class="d-flex text-primary">
       <div class="vr border-10 opacity-100"></div>
       <div class="lang">
+      <i class="fas fa-language" />
       <h3>Languages</h3>
       <ul>
         <li>
@@ -38,6 +39,8 @@ const Skills = () => {
       <li>Adaptability</li>
       </ul>
       <ul>
+      <i class="bi bi-code text-success"></i>
+
       <h3>Technical Skills</h3>
       <h4>front end</h4>
       <li>Knowledge of HTML and CSS</li>
@@ -73,14 +76,15 @@ const Skills = () => {
       </div>
       <div class="img1">
       <img src={img6} width="160"/>
-      <img src={img7} width="160"/>
-     
+    
+      <img src={img7}  class="img3"width="160"/>
+      
       </div>
       
       <div class="img">
         <h1>Back end</h1>
       <img src={img8} width="160"/>
-      <img src={img9} width="160"/>
+      <img src={img9}  class="img3"width="160"/>
       
       </div>
       

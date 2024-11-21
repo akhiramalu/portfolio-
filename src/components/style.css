@@ -158,6 +158,19 @@ body{
     transform: scale(0.8);
     transition: 1s ease;
     }
+    .fas {
+      font-size:20px ;
+      color: red;
+     
+    }
+    .bi{
+      font-size:20px ;
+      color:red;
+    }
+    .img3{
+      padding-left: 15px;
+    }
+
   
   
  
