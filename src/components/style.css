@@ -256,7 +256,7 @@ div.fg{
 }
 
 
-.container2 .card .image {
+.container2 .card .images {
   position : relative;
   width : 100px;
   height : 100px;
@@ -267,7 +267,7 @@ div.fg{
   z-index : 1; 
 }
 
-.container2 .card .image img {
+.container2 .card .images img {
    max-width : 100%; 
   border-radius : 15px; 
 }

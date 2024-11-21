@@ -17,7 +17,7 @@ const Education = () => {
     <div class="body2">
     <div class = "container2">
     <div class = "card">
-      <div class = "image">
+      <div class = "images">
       <img src={img1} />
            
       </div>
