@@ -27,13 +27,13 @@ const Navbar = () => {
           <Link to={'education'}><a class="nav-link" href="#">Education</a></Link>
           </li>
           <li class="nav-item">
-          <Link to={'skills'}><a class="nav-link" href="#">skills</a></Link>
+          <Link to={'skills'}><a class="nav-link" href="#">Skills</a></Link>
           </li>
           <li class="nav-item">
-          <Link to={'projects'}><a class="nav-link" href="#">projects</a></Link>
+          <Link to={'projects'}><a class="nav-link" href="#">Projects</a></Link>
           </li>
           <li class="nav-item">
-          <Link to={'testimonials'}><a class="nav-link" href="#">test</a></Link>
+          <Link to={'testimonials'}><a class="nav-link" href="#">Testimonials</a></Link>
           </li>
           <li class="nav-item">
           <Link to={'contacts'}><a class="nav-link" href="#">Contacts</a></Link>
