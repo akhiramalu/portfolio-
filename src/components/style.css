@@ -218,4 +218,58 @@ div.fg{
   transform: scale(1);
 }
 /* <....///card....///> */
+ /* Basic layout styles */
+ body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} 
+
+.ele {
+  height: 2000px;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.box{
+  margin: 100px auto;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1s;
+}
+
+/* Scroll-based animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translatex(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+/* Trigger animation when scrolled into view */
+.box:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.box:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.box:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
 

@@ -70,21 +70,21 @@ const Skills = () => {
         <div class="shrink">
       <div class="img1">
         <h1>Frond end</h1>
-      <img src={img3} width="160"/>
-      <img src={img4} width="160"/>
-      <img src={img5} width="160"/>
+      <img src={img3}  class="rounded-circle" width="160"/>
+      <img src={img4} class="rounded-circle" width="160"/>
+      <img src={img5} class="rounded-circle" width="160"/>
       </div>
       <div class="img1">
-      <img src={img6} width="160"/>
+      <img src={img6}  class="rounded-circle" width="160"/>
     
-      <img src={img7}  class="img3"width="160"/>
+      <img src={img7}   class="rounded-circle img3" width="160"/>
       
       </div>
       
       <div class="img">
         <h1>Back end</h1>
-      <img src={img8} width="160"/>
-      <img src={img9}  class="img3"width="160"/>
+      <img src={img8}   class="rounded-circle" width="160"/>
+      <img src={img9}  class="rounded-circle img3"width="160"/>
       
       </div>
       

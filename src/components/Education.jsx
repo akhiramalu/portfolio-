@@ -11,13 +11,16 @@ const Education = () => {
 </div>
 
 
-
-    </div>
+<div class="ele">
+   
+    <div class="box">hello</div>
+    <div class="box">More Scroll Animations</div>
+    <div class="box">Keep Scrolling!</div>
+  </div>
     
     
   </div>
- 
-            
+ </div>         
   )
 }
 
