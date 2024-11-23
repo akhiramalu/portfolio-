@@ -1,11 +1,11 @@
 .nav-item a{
     text-decoration: none;
-    color: rgb(84, 14, 5); 
+    color: rgb(6, 66, 80); 
    
     
 }
 .navbar{
-    background-color: rgb(96, 6, 112);
+    background-color: rgb(20, 5, 23);
     /* height: 100px; */
     display: flex;
     justify-content: center;
@@ -27,10 +27,13 @@
 /* <..../////home....///> */
 
 body{
-    margin:0;
-    padding:0;
-    background:skyblue;
+    /* margin:0; */
+    /* padding:0; */
+    background-image: url("../components/IMAGE/black.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:cursive;
+    padding-top: 1000px; 
   }
   .card{
     width:300px;
@@ -40,7 +43,7 @@ body{
      left:50%;  
      
     transform:translate(-50%,-50%)perspective(2000px);
-    background:#fff;
+    /* background:#fff; */
     transform-style:preserve-3d;
     box-shadow:inset 300px 0 50px rgba(0,0,0,.5),0 20px 100px rgba(0,0,0,.5);
     transition:1s;
@@ -57,7 +60,7 @@ body{
     left:0;
     width:100%;
     height:5px;
-    background:#2196F3;
+    background:rgb(19, 1, 49);
     transform-origin:bottom;
     transform:skewX(-45deg)
   }
@@ -68,7 +71,7 @@ body{
     right:-5px;
     width:5px;
     height:100%;
-    background:#2196F3;
+    background:rgb(3, 11, 240);
     transform-origin:left;
     transform:skewY(-45deg);
   }
@@ -100,7 +103,7 @@ body{
   /* <.....////about....//> */
   .about h3{
      padding-top: 200px;   
-    color:rgb(70, 3, 96);
+    color:rgb(2, 67, 50);
     display: flex;
     justify-content: center;
     font-size:50px ;
@@ -116,11 +119,12 @@ body{
 
   }
   .about span{
-    color:rgb(50, 2, 145);
+    color:rgb(106, 199, 29);
     font-size: 15px;
   }
   .block p{
     font-size: 25px;
+    color:whitesmoke;
   }
   /* <....////skills..///> */
   .vr{
@@ -139,7 +143,7 @@ body{
    padding-left:20px;
   }
   .lang ul{
-    color:rgb(94, 6, 88);
+    color:whitesmoke;
   }
   .img{
    padding-top: 40px;
@@ -290,7 +294,7 @@ div.fg{
   text-align: center;
  
   text-shadow: #16043e;
-  color:rgb(1, 6, 84);
+  color:black;
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 30px;
@@ -299,16 +303,19 @@ div.fg{
   text-align: center;
  
   text-shadow: #16043e;
-  color:rgb(1, 6, 84);
+  color:rgb(151, 5, 58);
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 30px;
 }
+.p{
+  color:#fa2a05;
+}
 .h4{
   text-align: center;
  
-  text-shadow: #16043e;
-  color:rgb(1, 6, 84);
+  text-shadow: #3e0410;
+  color:rgb(87, 42, 3);
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 30px;

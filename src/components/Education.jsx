@@ -37,7 +37,7 @@ const Education = () => {
     <img src={degree}  class="hi"/>
     <div class="card-img-overlay">
       <h1 class="h3"> BACHELOR'S DEGREE </h1>
-      <p>UNIVERSTY INSTITUTE OF TECHNOLOGY
+      <p class="p">UNIVERSTY INSTITUTE OF TECHNOLOGY
         PIRAPPANCODE
       </p>
     </div>
