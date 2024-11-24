@@ -5,10 +5,11 @@
     
 }
 .navbar{
-    background-color: rgb(20, 5, 23);
+     background-color: rgb(20, 5, 23); 
     /* height: 100px; */
-    display: flex;
+    display: flex; 
     justify-content: center;
+    padding-top: 20px;
 }
 
 .head h1{
@@ -27,18 +28,20 @@
 /* <..../////home....///> */
 
 body{
-    /* margin:0; */
-    /* padding:0; */
-    background-image: url("../components/IMAGE/black.avif");
+    margin:0;  
+     padding:0;   
+     background-image: url("../components/IMAGE/black.avif") ; 
+   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 3500px;
     font-family:cursive;
-    padding-top: 1000px; 
+    /* background-color: black; */
+   
   }
   .card{
     width:300px;
     height:400px;
-    position:absolute;
+    position:absolute; 
      top:110%; 
      left:50%;  
      
@@ -118,7 +121,7 @@ body{
 
 
   }
-  .about span{
+  .block span{
     color:rgb(106, 199, 29);
     font-size: 15px;
   }
@@ -127,23 +130,28 @@ body{
     color:whitesmoke;
   }
   /* <....////skills..///> */
-  .vr{
-    color:blue;
+   .vr{
+    color:rgb(1, 1, 80);
     height: 570px;
-   
- 
-
-  
-  }
+  } 
+   .img1 h1{
+    color:#350385;
+  } 
+  .img h1{
+    color: #3e0410;
+  } 
   .d-flex{
     padding-top: 40px;
   }
   .lang h3{
-    color:rgb(49, 4, 8);
+    color:rgb(152, 7, 19);
    padding-left:20px;
   }
   .lang ul{
-    color:whitesmoke;
+    color:whitesmoke; 
+  } 
+  .lang h2{
+    color:#5d4c01;
   }
   .img{
    padding-top: 40px;
@@ -175,6 +183,18 @@ body{
       padding-left: 15px;
     }
     /* <...////education...////> */
+    .wrap {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      align-items: center;
+      /* padding-top: 200px; */
+  }
+   .vLine {
+      border-left: 4px solid #f603f6;
+      height: 570px;
+    
+  } 
     
 :root {
   --gold: #ffb338;
@@ -223,34 +243,269 @@ div.fg{
 }
 /* <....///card....///> */
  /* Basic layout styles */
- body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-} 
 
-.ele {
-  height: 2000px;
-  padding: 50px;
-  text-align: center;
+.container0{
+
+ display: flex;
+	flex-direction: row;
+	align-items: center; 
+   padding: 20px; 
+  /* padding-left: 10px;   */
+} 
+/* <....glass card....////> */
+.body100
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container0
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.container0 .box
+{
+  position: relative;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  transition: 0.5s;
+}
+
+.container0 .box::before
+{
+  content:' ';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+}
+
+.container0 .box::after
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+}
+
+.container0 .box:hover:before,
+.container0 .box:hover:after
+{
+  transform: skewX(0deg);
+  left: 20px;
+  width: calc(100% - 90px);
   
 }
 
+ .container0 .box:nth-child(1):before,
+.container0 .box:nth-child(1):after
+{
+  background: linear-gradient(315deg, #0f0e0a, #130d0f)
+} 
 
-
-.card1{
-  margin: 100px auto;
-  width: 300px;
-  height: 200px;
-  background-color: transparent;
-  opacity: 0;
-  transform: translateX(100px);
-  animation: fadeInUp 1s forwards;
-  animation-delay: 1s;
+.container0 .box:nth-child(2):before,
+.container0 .box:nth-child(2):after
+{
+  background: linear-gradient(315deg, #00080b, #120007)
 }
 
-/* Scroll-based animation */
- @keyframes fadeInUp {
+.container0 .box:nth-child(3):before,
+.container0 .box:nth-child(3):after
+{
+  background: linear-gradient(315deg, #071203, #000e11)
+}
+.container0 .box:nth-child(4):before,
+.container0 .box:nth-child(4):after
+{
+  background: linear-gradient(315deg, #130012, #21002f)
+}
+
+
+.container0 .box span
+{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.container0 .box span::before
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.1s;  
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08)
+}
+
+.container0 .box:hover span::before
+{
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+.container0 .box span::after
+{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.5s;
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  animation-delay: -1s;
+}
+
+.container0 .box:hover span:after
+{
+  bottom: -50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+@keyframes animate
+{
+  0%, 100%
+  {
+    transform: translateY(10px);
+  }
+  
+  50%
+  {
+    transform: translate(-10px);
+  }
+}
+
+.container0 .box .content
+{
+  position: relative;
+  left: 0;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+}
+
+.container0 .box:hover .content
+{
+  left: -25px;
+  padding: 60px 40px;
+}
+
+.container0 .box .content h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.container0 .box .content p
+{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+.container0 .box .content a
+{
+  display: inline-block;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.container0 .box .content a:hover
+{
+  background: #ffcf4d;
+  border: 1px solid rgba(255, 0, 88, 0.4);
+  box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+}
+/* <...////glass card.......///> */
+
+
+
+
+
+
+
+ 
+
+/* 
+<..////animation started....///> */
+.box {
+  margin: 100px auto;
+  width: 300px;
+  height: 200px; 
+  /* background-color: red; */
+  opacity: 0;
+  
+  transform: translateX(100px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1s; 
+}
+
+ /* Scroll-based animation */ 
+
+
+/* Scroll-based animation */ 
+@keyframes fadeInUp {
   0% {
     opacity: 0;
     transform: translatex(100px);
@@ -259,67 +514,62 @@ div.fg{
     opacity: 1;
     transform: translatex(0);
   }
+} 
+/* <....////animation2...//> */
+.left-card11 {
+  margin: 100px auto;
+  width: 300px;
+  height: 200px; 
+  background-color: red;
+  opacity: 0;
+  
+   
+  transform: translatex(100px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1s; 
 }
-
-/* Trigger animation when scrolled into view */
- .card1:nth-child(1) {
-  animation-delay: 0.5s;
-}
-
-.card1:nth-child(2) {
-  animation-delay: 1s;
+/* Scroll-based animation */ 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
 } 
 
-.card1:nth-child(3) {
-  animation-delay: 1.5s;
+
+/* <......////////projects......////> */
+/* .body3{
+  display:flex;
+} */
+.body3 h2{
+  color:#2d0801;
+  font-size: 100px;
+
+
 }
-.hi{
-  height: 200px;
-  width:300px;
- 
+ .body3 span{
+  color:#093e02;
+  padding-left: 10px;
+   letter-spacing: 10px; 
+
 }
-.h1{
-  text-align: center;
- 
-  text-shadow: #16043e;
-  color:rgb(1, 6, 84);
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 30px;
+/* <..../////test.....///> */
+.param p{
+  padding-top:130px; 
+ justify-content: center;
+color:whitesmoke;
+font-size: 25px;
+
 }
-.h1 span{
-  color:rgb(150, 87, 97);
+.param span{
+  color:#ffb338;
+
 }
-.h2{
-  text-align: center;
- 
-  text-shadow: #16043e;
-  color:black;
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 30px;
-}
-.h3{
-  text-align: center;
- 
-  text-shadow: #16043e;
-  color:rgb(151, 5, 58);
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 30px;
-}
-.p{
-  color:#fa2a05;
-}
-.h4{
-  text-align: center;
- 
-  text-shadow: #3e0410;
-  color:rgb(87, 42, 3);
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 30px;
-}
+
 
 
 

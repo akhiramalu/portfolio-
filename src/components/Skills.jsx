@@ -30,7 +30,9 @@ const Skills = () => {
         </li>
         <li>malayalam</li>
       </ul>
+        {/* <div class="soft">  */}
       <ul>
+      
       <h3>Soft Skills</h3>
       <li>Communication Skill</li>
       <li>Attension to Detail</li>
@@ -38,17 +40,20 @@ const Skills = () => {
       <li>Problem Solving Skill</li>
       <li>Adaptability</li>
       </ul>
+      {/* </div>  */}
+      {/* <div class="tech">  */}
       <ul>
+   
       <i class="bi bi-code text-success"></i>
 
       <h3>Technical Skills</h3>
-      <h4>front end</h4>
+      <h2>front end</h2>
       <li>Knowledge of HTML and CSS</li>
       <li>Knowledge of JS</li>
       <li>Boostrap,React js</li>
       <li>Problem Solving Skill</li>
       <li>Adaptability</li>
-      <h4>Back end</h4>
+      <h2>Back end</h2>
       <li>Python </li>
       <li>Django </li>
       
@@ -56,7 +61,8 @@ const Skills = () => {
 
       </ul>
       </div>
-   
+      {/* </div>
+    */}
       
     
   </div>

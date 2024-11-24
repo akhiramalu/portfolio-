@@ -14,45 +14,60 @@ const Education = () => {
   <div class="bg"> education </div>
   <div class="fg"> education </div>
 </div>
+<div class="body100">
+<div class="container0">
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>MY SCHOOLING</h2>
+      <p>G.V.H.S.S PIRAPPANCODE(2015)</p>
+     
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>HIGH SCHOOLING</h2>
+      <p>G.H.S.S PIRAPPANCODE(2017)</p>
+   
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>BACHELOR'S DEGREE</h2>
+      <h5>BSC.COMPUTERSCIENCE</h5>
+      <p>UIT PIRAPPANCODE(2018-2020)</p>
+   
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>PYTHON FULLSTACK</h2>
+      <p>NETWORK SYSTEMS</p>
+    
+    </div>
+  </div>
+  </div>
+</div>
+  
 
 
+ 
 
- <div class="body5">
-  <div class="row">
-    <div class="card1">
-    <img src={hschool}  class="hi"/>
-    <div class="card-img-overlay">
-      <h1 class="h1"> MY <span>SCHOOLING</span></h1>
-      <p class="p">G.V.H.S.S PIRAPPANCODE</p>
-    </div>
-    </div>
-    <div class="card1">
-    <img src={ishool}  class="hi"/>
-    <div class="card-img-overlay">
-      <h1 class="h2">HIGH SCHOOL</h1>
-      <p class="h2">G H S S PIRAPPANCODE</p>
-    </div>
-    </div>
-    <div class="card1">
-    <img src={degree}  class="hi"/>
-    <div class="card-img-overlay">
-      <h1 class="h3"> BACHELOR'S DEGREE </h1>
-      <p class="p">UNIVERSTY INSTITUTE OF TECHNOLOGY
-        PIRAPPANCODE
-      </p>
-    </div>
-    </div>
-    <div class="card1">
-    <img src={net}  class="hi"/>
-    <div class="card-img-overlay">
-      <h1 class="h4">PYTHON FULLSTACK</h1>
-      {/* <p>NETWOK SYSTEMS</p> */}
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
+  
+
+    
+
+  
+
+  
+
+
+</div>
+</div>
+
 
   )
 }
