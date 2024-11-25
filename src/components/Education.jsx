@@ -1,9 +1,5 @@
 import React from 'react'
-import hschool from '../components/IMAGE/ischool.jpg'
-import ishool from '../components/IMAGE/highschool.avif'
 
-import degree from '../components/IMAGE/degree.png'
-import net from '../components/IMAGE/net.jpg'
 
 
 const Education = () => {

@@ -325,19 +325,19 @@ div.fg{
  .container0 .box:nth-child(1):before,
 .container0 .box:nth-child(1):after
 {
-  background: linear-gradient(315deg, #0f0e0a, #130d0f)
+  background: linear-gradient(315deg, #100752, #130d0f)
 } 
 
 .container0 .box:nth-child(2):before,
 .container0 .box:nth-child(2):after
 {
-  background: linear-gradient(315deg, #00080b, #120007)
+  background: linear-gradient(315deg, #013d13, #381601)
 }
 
 .container0 .box:nth-child(3):before,
 .container0 .box:nth-child(3):after
 {
-  background: linear-gradient(315deg, #071203, #000e11)
+  background: linear-gradient(315deg, #3b0142, #3f2608)
 }
 .container0 .box:nth-child(4):before,
 .container0 .box:nth-child(4):after
@@ -546,17 +546,19 @@ div.fg{
   display:flex;
 } */
 .body3 h2{
-  color:#2d0801;
-  font-size: 100px;
+  color:#7b1501;
+  font-size: 50px;
+  padding-top:50px;
 
 
 }
- .body3 span{
-  color:#093e02;
-  padding-left: 10px;
-   letter-spacing: 10px; 
-
+.container7{
+  padding-top: 100px;
 }
+.container7 h3{
+  color:#57017b
+}
+ 
 /* <..../////test.....///> */
 .param p{
   padding-top:130px; 
