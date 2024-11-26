@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../components/IMAGE/malu1.jpg'
+
 
 const About = () => {
   return (
@@ -12,11 +12,11 @@ const About = () => {
    
     <div class="about">
 
-      <h3> ABOUT ME</h3>
-         <h2>-Who am I</h2>
+      <h3 style={{ marginBottom: '10px' }}> ABOUT ME</h3>
+         <h2  style={{ marginTop: '70px' }}>-Who am I</h2>
           
 <div class="block">
-          <p>My name is AKHIRA S R ,and I am a passinate <span>FULL STACK DEVELOPER</span>. I have always been fascinated
+          <p  style={{ marginTop: '50px' }}>My name is AKHIRA S R ,and I am a passinate <span>FULL STACK DEVELOPER</span>. I have always been fascinated
           by the intersection of design and technology , and I am trilled to be able to bring  my creative ideas to life through 
           coding.My  focus is on frontend developement and back end developement.My technical Skill include proficiency
           in <span>HTML</span>,<span>CSS</span>,<span>JAVA SCRIPT</span> and various frontend framework such as <span>REACT JS</span>.

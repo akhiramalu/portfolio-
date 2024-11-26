@@ -30,11 +30,10 @@
 body{
     margin:0;  
      padding:0;   
-     background-image: url("../components/IMAGE/black.avif") ; 
-   
+     
     background-repeat: no-repeat;
     background-size: 3500px;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
     /* background-color: black; */
    
   }
@@ -42,7 +41,7 @@ body{
     width:300px;
     height:400px;
     position:absolute; 
-     top:110%; 
+     top:550px; 
      left:50%;  
      
     transform:translate(-50%,-50%)perspective(2000px);
@@ -105,56 +104,77 @@ body{
 
   /* <.....////about....//> */
   .about h3{
-     padding-top: 200px;   
+      /* padding-top: 100px;    */
     color:rgb(2, 67, 50);
     display: flex;
     justify-content: center;
     font-size:50px ;
+    margin-top: 100px;
    
   }
+  
+
   .about h2{
-    font-size:40px ;  
+    font-size:40px ; 
+    /* margin-bottom: 300px;  */
    
-    display: flex;
+     display: flex; 
     justify-content: left;
     color: rgb(72, 3, 3);
 
 
   }
   .block span{
-    color:rgb(106, 199, 29);
-    font-size: 15px;
+    color:rgb(79, 4, 198);
+    font-size: 20px;
   }
   .block p{
     font-size: 25px;
-    color:whitesmoke;
+    color:black;
+    /* margin-top: 200px; */
+
   }
   /* <....////skills..///> */
+  .container1{
+    padding-top: 100px;
+  }
    .vr{
-    color:rgb(1, 1, 80);
+    color: bold solid rgb(2, 2, 145);
     height: 570px;
+  
   } 
    .img1 h1{
     color:#350385;
+    margin-bottom: 20px; 
   } 
   .img h1{
+    padding-top: 30px; 
     color: #3e0410;
   } 
   .d-flex{
     padding-top: 40px;
   }
-  .lang h3{
+  .lang h1{
     color:rgb(152, 7, 19);
    padding-left:20px;
+   padding-bottom: 90px;
+    
+   display: inline;
   }
+  
   .lang ul{
-    color:whitesmoke; 
+    color:black;
+    padding-top: 40px;
+    
   } 
   .lang h2{
     color:#5d4c01;
+    padding-top: 20px; 
   }
+  
+   
   .img{
-   padding-top: 40px;
+    padding-top: 40px; 
  
   }
   .img1{
@@ -170,15 +190,9 @@ body{
     transform: scale(0.8);
     transition: 1s ease;
     }
-    .fas {
-      font-size:20px ;
-      color: red;
+    
      
-    }
-    .bi{
-      font-size:20px ;
-      color:red;
-    }
+    
     .img3{
       padding-left: 15px;
     }
@@ -292,7 +306,7 @@ div.fg{
   width: 50%;
   height: 100%;
   text-decoration: none;
-  background: #fff;
+  background: black;
   border-radius: 8px;
   transform: skewX(15deg);
   transition: 0.5s;
@@ -306,7 +320,7 @@ div.fg{
   left: 50;
   width: 50%;
   height: 100%;
-  background: #fff;
+  background: black;
   border-radius: 8px;
   transform: skewX(15deg);
   transition: 0.5s;
@@ -367,7 +381,7 @@ div.fg{
   width: 0;
   height: 0;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(79, 75, 75, 0.1);
   backdrop-filter: blur(10px);
   opacity: 0;
   transition: 0.1s;  
@@ -435,7 +449,7 @@ div.fg{
   border-radius: 8px;
   z-index: 1;
   transform: 0.5s;
-  color: #fff;
+  color: black;
 }
 
 .container0 .box:hover .content
@@ -447,7 +461,7 @@ div.fg{
 .container0 .box .content h2
 {
   font-size: 2em;
-  color: #fff;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -463,7 +477,7 @@ div.fg{
   display: inline-block;
   font-size: 1.1em;
   color: #111;
-  background: #fff;
+  background: whitesmoke;
   padding: 10px;
   border-radius: 4px;
   text-decoration: none;
@@ -563,7 +577,7 @@ div.fg{
 .param p{
   padding-top:130px; 
  justify-content: center;
-color:whitesmoke;
+color:rgb(10, 10, 89);
 font-size: 25px;
 
 }
@@ -574,7 +588,19 @@ font-size: 25px;
 
 
 
+/* <................///////////CONTACTS............//////////> */
+/* .social-icons{
+   display: flex
+   
+} */
+.icon{
+}
+.box h2{
+  color: red;
+  /* display:inline; */
+  /* padding-left: 100px; */
 
+}
 
 
  

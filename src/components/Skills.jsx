@@ -7,6 +7,7 @@ import img6 from '../components/IMAGE/boostrap.jpg'
 import img7 from '../components/IMAGE/react.jpg'
 import img8 from '../components/IMAGE/py.jpg'
 import img9 from '../components/IMAGE/dj.png'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
@@ -22,18 +23,18 @@ const Skills = () => {
   <div class="d-flex text-primary">
       <div class="vr border-10 opacity-100"></div>
       <div class="lang">
-      <i class="fas fa-language" />
+      {/* <i class="fas fa-language" />
       <h3>Languages</h3>
       <ul>
         <li>
           English
         </li>
         <li>malayalam</li>
-      </ul>
+      </ul> */}
         {/* <div class="soft">  */}
       <ul>
       
-      <h3>Soft Skills</h3>
+      <h1 > Soft Skills</h1>
       <li>Communication Skill</li>
       <li>Attension to Detail</li>
       <li>Team Work</li>
@@ -46,13 +47,14 @@ const Skills = () => {
    
       <i class="bi bi-code text-success"></i>
 
-      <h3>Technical Skills</h3>
-      <h2>front end</h2>
-      <li>Knowledge of HTML and CSS</li>
-      <li>Knowledge of JS</li>
-      <li>Boostrap,React js</li>
-      <li>Problem Solving Skill</li>
-      <li>Adaptability</li>
+      <h1>Technical Skills</h1>
+      <h2>Front end</h2>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+      <li>Boostrap</li>
+      <li>React js</li>
+    
       <h2>Back end</h2>
       <li>Python </li>
       <li>Django </li>
@@ -75,7 +77,7 @@ const Skills = () => {
       <div class="col-sm">
         <div class="shrink">
       <div class="img1">
-        <h1>Frond end</h1>
+        <h1   style={{ marginBottom: '70px' }}>Frond end</h1>
       <img src={img3}  class="rounded-circle" width="160"/>
       <img src={img4} class="rounded-circle" width="160"/>
       <img src={img5} class="rounded-circle" width="160"/>
@@ -88,7 +90,7 @@ const Skills = () => {
       </div>
       
       <div class="img">
-        <h1>Back end</h1>
+        <h1   style={{ marginBottom: '70px' }}>Back end</h1>
       <img src={img8}   class="rounded-circle" width="160"/>
       <img src={img9}  class="rounded-circle img3"width="160"/>
       
